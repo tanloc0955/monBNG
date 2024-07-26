@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	width: 100%;height: 60px
+}
+.banner{
+	width: 100%;min-height: 400px;
+}
+main{
+	width: 100%;min-height: 500px
+}
+#feature{
+	width: 100%;min-height: 600px;background-image: url("../images/bg2.png");background-repeat: no-repeat;background-size: cover;background-position: bottom center
+}
+.gach-chan{
+	border-bottom: 2px solid #8B0000
+}
+.pt-30{
+	padding-top: 30px
+}
+.vien-trang{
+	width: 100%;min-height: 100px;border: 1px solid #676767;padding: 20px
+}
+.text-do{
+	color: darkred;
+}
+#feature a{
+	text-decoration: none;color: darkred
+}
+#feature a:hover{
+	color: #1755DB
+}
+.logo{
+	width: 35%;height: auto;padding: 10px
+}
+.menu ul{
+	margin: 0;padding: 0;list-style: none;display: flex;padding-right: 200px
+}
+.menu{
+	padding-top: 17px
+}
+.menu ul li a{
+	padding: 10px 20px;text-decoration: none;color: #A7A5A5;border-radius: 10px
+}
+.menu ul li a:hover{
+	background-color: darkred;color: white
+}
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:yellow;
+      text-decoration: none; }
+.tim-kiem{
+	padding-top: 15px;padding: 15px
+}
+.vien-do{
+	width: 100%;border: 1px solid #970002;padding: 20px;position: relative;overflow: hidden
+}
+#newarrival{
+	width: 100%;min-height: 600px;
+}
+.text-us{
+	padding-top: 80px
+}
+#contact{
+	width: 100%;min-height: 600px;background-image: url("../images/Banner2.png");background-size: cover;background-repeat: no-repeat;background-position: center center
+}
+.shadow{
+	border: 1px solid gray;;width: 100%;min-height: 300px;box-shadow: 5px 5px 5px gray;;padding: 30px
+}
+.form-control{
+	padding: 8px;width: 100%;margin-bottom: 10px
+}
+.icon{
+	position: absolute;width: 80%;height: 40px;left: 10%;top: -15%;justify-content: space-around;display: flex;transition: all 1s
+}
+.icon a{
+	width: 40px;height: 40px;background-color: white;border-radius: 50%;display: flex;justify-content: center;align-items: center;text-decoration: none;color: red;transition: all 1s
+}
+.icon a:hover{
+	background-color: darkred;color: white
+}
+.vien-do:hover .icon{
+	top: 30%
+}
+.container1{
+	background-color: #FFFFFF;margin: 0;height: 412px;text-align: center
+}
+.text-den{
+	color: #676666
+}
+footer a{
+	color: #757575
+}
+footer a:hover{
+	color: darkred;
+}
+.bg-xanh{
+	background-color: aqua;text-align: center
+}
+footer ul{
+	margin: 0;list-style: none;padding: 0
+}
+footer ul li a{
+	text-decoration: none;padding: 10px;display: block
+}
+.w-40{
+	width: 40%;padding: 20px;float: left
+}
+.w-60{
+	width: 60%;padding: 20px;float: left
+}
+.vien-xam{
+	width: 100%;padding: 20px;min-height: 200px;border: 1px solid gray;border-radius: 10px
+}
+footer{
+	clear: both
+}
